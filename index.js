@@ -26,7 +26,7 @@ app.post('/contact', (req, res) => {
   const mailOptions = {
     from: 'servincentparsley@gmail.com',
     to: 'romankatanovich@yahoo.com',
-    subject: `New message from ${name}`,
+    subject: `${name} wants to talk to you`,
     text: `From: ${name} <${email}> \n\n ${message}`
   };
 
